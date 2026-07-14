@@ -122,35 +122,19 @@
   .angle h3{font-size:17px;color:var(--crust);margin-bottom:8px}
   .angle p{font-size:14.5px;color:var(--rye);line-height:1.55}
 
-  /* ---- kpi ---- */
-  .kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-bottom:34px}
-  .kpi{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:20px;text-align:left}
-  .kpi .v{font-family:var(--serif);font-size:30px;color:var(--crust);line-height:1;font-variant-numeric:tabular-nums}
-  .kpi .l{font-size:13px;color:var(--rye);margin-top:9px}
-  .kpi .s{font-size:11.5px;color:var(--muted);margin-top:4px}
-
-  .todo-box{background:var(--panel-2);border:1px solid var(--line);border-radius:16px;padding:26px 28px}
-  .todo-box h3{font-size:18px;margin-bottom:6px}
-  .todo-box .hint{font-size:13.5px;color:var(--muted);margin-bottom:16px}
-  .todo-box ol{margin:0;padding-left:20px;display:flex;flex-direction:column;gap:9px}
-  .todo-box li{font-size:14.5px;color:var(--ink);line-height:1.5}
-  .todo-box li b{color:var(--crust)}
-
   footer{padding:40px 0 60px;border-top:1px solid var(--line);color:var(--muted);font-size:13px}
   footer .disc{max-width:52em;line-height:1.6}
   footer b{color:var(--rye)}
 
   @media (max-width:820px){
     body{font-size:16px}
-    .compare,.pillars,.grid3,.angles,.kpis{grid-template-columns:1fr}
-    .kpis{grid-template-columns:1fr 1fr}
+    .compare,.pillars,.grid3,.angles{grid-template-columns:1fr}
     .phase{grid-template-columns:1fr;gap:18px}
     .phase .rail{display:flex;align-items:baseline;gap:14px}
     .phase .rail .no{font-size:34px;margin:0}
     .phase .rail .term{margin-top:0}
     section{padding:48px 0}
   }
-  @media (max-width:480px){.kpis{grid-template-columns:1fr}}
   @media (prefers-reduced-motion:no-preference){
     .pill-card,.phase,.cmp{transition:transform .2s ease,box-shadow .2s ease}
     .pill-card:hover,.phase:hover{transform:translateY(-2px)}
@@ -365,34 +349,6 @@
       <div class="angle"><h3>左營 · 在地座標</h3><p>Tsoying 是可被搜尋、可被記住的地理標籤。做「左營伴手禮/在地名店宅配全國」的定位,吃在地搜尋與觀光送禮。</p></div>
       <div class="angle"><h3>送禮 · 場景切入</h3><p>手感烘焙天生適合禮盒與伴手。用節慶與送禮場景切入,比純粹日常麵包更容易拉高客單與被分享。</p></div>
       <div class="angle"><h3>門市 × 線上 O2O</h3><p>馬可沒有的實體現場,是貝詩客的資產。門市體驗導線上會員、線上預訂門市取貨,兩邊互相導流。</p></div>
-    </div>
-  </div>
-</section>
-
-<section>
-  <div class="wrap">
-    <div class="sec-head">
-      <span class="eyebrow kick">06 · 下一步</span>
-      <h2>可以量的目標,與需要你先確認的事</h2>
-      <p>下面是各階段建議追蹤的指標(數字是待共同設定的目標框架,非承諾值),以及開工前我需要你補齊的資料。</p>
-    </div>
-    <div class="kpis">
-      <div class="kpi"><div class="v">需求訊號</div><div class="l">詢問 / 訂單量</div><div class="s">02 流量先行</div></div>
-      <div class="kpi"><div class="v">願付價</div><div class="l">熱銷品 × 客單</div><div class="s">03 需求驗證</div></div>
-      <div class="kpi"><div class="v">官網承接</div><div class="l">建站 + 湊組免運</div><div class="s">04 需求成立後</div></div>
-      <div class="kpi"><div class="v">自然流量</div><div class="l">內容 SEO / 回購</div><div class="s">04 長期複利</div></div>
-    </div>
-    <div class="todo-box">
-      <h3>開工前 · 待 Dan / 貝詩客確認</h3>
-      <p class="hint">這些是我沒有一手資料、不會替你臆造的欄位,補齊後路線圖就能落到實際數字。</p>
-      <ol>
-        <li><b>產品與定價</b>:實際品項清單、售價、哪些經得起宅配(常溫/冷鏈)。</li>
-        <li><b>現有數位資產</b>:是否已有官網、FB / IG / LINE 現況與粉絲/名單規模。</li>
-        <li><b>物流能力</b>:目前能否宅配、包裝與保存期限、出貨量能。</li>
-        <li><b>蝦皮進度</b>:賣場目前開到哪一步、投入了多少?決定是暫緩、還是留到 P3 當承接通路。</li>
-        <li><b>建站平台</b>:未來要走 CYBERBIZ(同馬可)還是其他店商方案。</li>
-        <li><b>轉型目標</b>:這波是要衝營收、建品牌、還是先做通路備援?優先序決定階段配重。</li>
-      </ol>
     </div>
   </div>
 </section>
